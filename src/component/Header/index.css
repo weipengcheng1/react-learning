@@ -1,0 +1,12 @@
+.todo-header {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.todo-header input {
+    width: 100%;
+    border: 1px solid #dedede;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    border-radius: 4px;
+}

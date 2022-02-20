@@ -1,0 +1,36 @@
+.todo-container {
+    width: 500px;
+    border: 2px solid #dedede;
+    padding: 8px 10px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+input[type=checkbox] {
+    border: 1px solid #dedede;
+    width: 15px;
+    height: 15px;
+}
+input[type=text]{
+    outline: none;
+}
+
+.btn{
+    padding:8px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    outline: none;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    border-radius: 4px;
+    font-weight:500;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.btn-danger{
+    border-color: #f56c6c;
+    background-color:#f56c6c ;
+    color: white;
+}

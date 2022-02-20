@@ -1,0 +1,23 @@
+.todo-footer {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.todo-footer__left span {
+  font-size: 14px;
+  margin-left: 20px;
+  vertical-align: top; }
+
+.todo-footer__right button {
+  width: 120px;
+  border: none;
+  background-color: #e06363;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 29px; }
+
+/*# sourceMappingURL=index.css.map */
