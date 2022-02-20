@@ -1,7 +1,5 @@
 import React, {Component} from 'react'
-import Header from "./component/Header"
-import List from './component/List'
-import Footer from './component/Footer'
+import {Header, List, Footer} from "./component/TodoList"
 import "./App.css"
 
 
