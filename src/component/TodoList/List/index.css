@@ -1,15 +1,14 @@
 .todo-list {
   width: 100%;
   box-sizing: border-box;
-  margin: 20px 0;
-
-  ul {
+  margin: 20px 0; }
+  .todo-list ul {
     list-style: none;
     width: 100%;
     box-sizing: border-box;
     border: 1px solid #dedede;
     border-radius: 4px;
     min-height: 20px;
-    overflow: hidden;
-  }
-}
+    overflow: hidden; }
+
+/*# sourceMappingURL=index.css.map */

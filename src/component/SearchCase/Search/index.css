@@ -1,0 +1,12 @@
+.search-content {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px 0 20px 10px;
+  background: #e9e9eb;
+  border-radius: 8px; }
+  .search-content .search-title {
+    margin-bottom: 10px; }
+  .search-content .btn {
+    margin-left: 15px; }
+
+/*# sourceMappingURL=index.css.map */
