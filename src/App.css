@@ -1,15 +1,17 @@
+@import '~antd/dist/antd.css';
+
 .todo-container {
-    width: 500px;
-    border: 2px solid #dedede;
-    padding: 8px 10px;
-    border-radius: 8px;
+    width: 5rem;
+    border: 0.02rem solid #dedede;
+    padding: 0.08rem 0.1rem;
+    border-radius: 0.08rem;
     margin: 0 auto;
 }
 
 input[type=checkbox] {
-    border: 1px solid #dedede;
-    width: 15px;
-    height: 15px;
+    border: 0.01rem solid #dedede;
+    width: 0.15rem;
+    height: 0.15rem;
 }
 
 input[type=text] {
@@ -20,33 +22,35 @@ input[type=text] {
     -webkit-appearance: none;
     background-color: #fff;
     background-image: none;
-    border-radius: 4px;
-    border: 1px solid #dcdfe6;
+    border-radius: 0.04rem;
+    border: 0.01rem solid #dcdfe6;
     box-sizing: border-box;
     color: #606266;
     display: inline-block;
     font-size: inherit;
-    height: 34px;
-    line-height: 34px;
+    height: 0.34rem;
+    line-height: 0.34rem;
     outline: none;
-    padding: 0 15px;
+    padding: 0 0.15rem;
     transition: border-color .2s cubic-bezier(.645, .045, .355, 1);
 }
 
 .btn {
-    padding: 8px 20px;
+    padding: 8px;
     box-sizing: border-box;
     text-align: center;
     outline: none;
     border: 1px solid #dcdfe6;
     color: #606266;
-    border-radius: 4px;
+    border-radius: 6px;
     font-weight: 500;
     font-size: 14px;
     cursor: pointer;
     white-space: nowrap;
     line-height: 1;
+    margin-left: 8px;
 }
+
 
 .btn-danger {
     border-color: #f56c6c;
@@ -76,7 +80,7 @@ input[type=text] {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-    padding: 8px;
+    padding: 0.08rem;
 }
 
 .spa-container {
@@ -85,21 +89,21 @@ input[type=text] {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 100px;
+    padding-top: 1rem;
 }
 
 .spa-container .span-nav {
     flex: 0 0 100%;
     text-align: center;
-    padding: 20px 0;
+    padding: 0.2rem 0;
 }
 
 .spa-container .span-nav a {
-    margin-right: 20px;
+    margin-right: 0.2rem;
     display: inline-block;
-    width: 100px;
-    height: 50px;
-    line-height: 50px;
+    width: 1rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
     text-align: center;
     text-decoration: none;
 }

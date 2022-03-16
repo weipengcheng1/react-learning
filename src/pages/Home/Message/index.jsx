@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link, Route} from "react-router-dom";
 import Detail from "./Detail";
+import {Button} from "antd";
 
 export default class Message extends Component {
     state = {
@@ -46,17 +47,18 @@ export default class Message extends Component {
                                 {/* 编程式导航*/}
                                 <Link
                                     to={{pathname: `/home/message/detail/${item.id}/${item.title}/${item.title}`}}>{item.title}</Link>
-                                <button style={{"marginLeft": "15px"}} onClick={() => {
+                                <Button type="primary" onClick={() => {
                                     this.locationStyle('push', item.id, item.title)
-                                }}>push
-                                </button>
-                                <button style={{"marginLeft": "15px"}} onClick={() => {
+                                }}>
+                                    push
+                                </Button>
+                                <Button type="danger" onClick={() => {
                                     this.locationStyle('replace', item.id, item.title)
-                                }}>replace
-                                </button>
+                                }}>replace</Button>
+
 
                             </li>
-                        })
+                        })  
                     }
                 </ul>
                 <hr/>
@@ -65,7 +67,7 @@ export default class Message extends Component {
 
                 {/*search参数无需声明接收*/}
                 <Route path="/home/message/detail" component={Detail}/>
-
+    
                 {/*state参数无需声明接收*/}
                 {/*<Route path="/home/message/detail" component={Detail}/>*/}
             </div>
